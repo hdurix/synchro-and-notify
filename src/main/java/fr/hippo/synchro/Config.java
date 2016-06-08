@@ -7,7 +7,7 @@ import java.util.Properties;
  */
 public class Config {
 
-    public enum MessageType { EMAIL, TELEGRAM, PUSH_BULLET };
+    public enum MessageType {EMAIL, TELEGRAM, PUSH_BULLET}
 
     public static final String FROM_FOLDER = "/torrents/";
     public static final String TEMP_FOLDER = "temp/";
